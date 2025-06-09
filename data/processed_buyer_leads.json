@@ -1,0 +1,881 @@
+[
+  {
+    "company_name": "Company 1",
+    "info": "We produce software.",
+    "labels": "corn-starch; no additives",
+    "site": "http://company1.com",
+    "products": [
+      {
+        "name": "cake",
+        "ingredients": [
+          "flour",
+          "sugar",
+          "eggs"
+        ]
+      },
+      {
+        "name": "biscuits",
+        "ingredients": [
+          "flour",
+          "butter",
+          "sugar"
+        ]
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Company 2",
+    "desc": "We produce pet food.",
+    "keywords": "corn-starch; dessert",
+    "site": "http://company2.com",
+    "items": [
+      {
+        "name": "chips",
+        "ingredients": [
+          "potatoes",
+          "oil",
+          "salt"
+        ]
+      },
+      {
+        "name": "cake"
+      },
+      {
+        "name": "biscuits"
+      }
+    ]
+  },
+  {
+    "company_name": "Company 3",
+    "description": "We produce pet food.",
+    "labels": "eco; corn-starch",
+    "website": "http://company3.com",
+    "products": [
+      {
+        "name": "cake",
+        "ingredients": [
+          "flour",
+          "sugar",
+          "eggs"
+        ]
+      },
+      {
+        "name": "biscuits"
+      },
+      {
+        "name": "chips"
+      }
+    ]
+  },
+  {
+    "company": "Company 4",
+    "desc": "We produce sauces. Our products use maize powder.",
+    "tags": "dessert; eco",
+    "url": "",
+    "products": [
+      {
+        "name": "face powder",
+        "ingredients": [
+          "talc",
+          "mica",
+          "zinc oxide"
+        ]
+      },
+      {
+        "name": "biscuits"
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Company 5",
+    "desc": "We produce bakery.",
+    "labels": "eco; vegan",
+    "url": "http://company5.com",
+    "items": [
+      {
+        "name": "pudding"
+      },
+      {
+        "name": "cheese"
+      },
+      {
+        "name": "cake"
+      }
+    ]
+  },
+  {
+    "name": "Company 6",
+    "desc": "We produce cosmetics.",
+    "tags": "no additives; vegan",
+    "url": "",
+    "products": [
+      {
+        "name": "cake",
+        "ingredients": [
+          "flour",
+          "sugar",
+          "eggs"
+        ]
+      },
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      }
+    ]
+  },
+  {
+    "company_name": "Company 7",
+    "info": "We produce dairy.",
+    "labels": "eco; vegan",
+    "url": "http://company7.com",
+    "product_list": [
+      {
+        "name": "pudding"
+      },
+      {
+        "name": "biscuits",
+        "ingredients": [
+          "flour",
+          "butter",
+          "sugar"
+        ]
+      },
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Company 8",
+    "desc": "We produce pet food.",
+    "labels": "no additives; vegan",
+    "website": "http://company8.com",
+    "items": [
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      },
+      {
+        "name": "biscuits"
+      },
+      {
+        "name": "face powder"
+      }
+    ]
+  },
+  {
+    "name": "Company 9",
+    "description": "We produce software.",
+    "labels": "no additives; eco",
+    "website": "http://company9.com",
+    "product_list": [
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      },
+      {
+        "name": "face powder",
+        "ingredients": [
+          "talc",
+          "mica",
+          "zinc oxide"
+        ]
+      },
+      {
+        "name": "cream"
+      }
+    ]
+  },
+  {
+    "company_name": "Company 10",
+    "description": "We produce dairy.",
+    "keywords": "eco; vegan",
+    "site": "http://company10.com",
+    "items": [
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      },
+      {
+        "name": "chips"
+      }
+    ]
+  },
+  {
+    "name": "Company 11",
+    "info": "We produce sauces. Our products use starch. Our products use binder.",
+    "keywords": "no additives; dessert",
+    "website": "http://company11.com",
+    "product_list": [
+      {
+        "name": "cream"
+      },
+      {
+        "name": "biscuits",
+        "ingredients": [
+          "flour",
+          "butter",
+          "sugar"
+        ]
+      },
+      {
+        "name": "cake"
+      }
+    ]
+  },
+  {
+    "company_name": "Company 12",
+    "description": "We produce cosmetics.",
+    "tags": "corn-starch; eco",
+    "website": "http://company12.com",
+    "items": [
+      {
+        "name": "cream"
+      },
+      {
+        "name": "biscuits"
+      },
+      {
+        "name": "chips"
+      }
+    ]
+  },
+  {
+    "company": "Company 13",
+    "info": "We produce dairy. Our products use maize powder.",
+    "keywords": "no additives; dessert",
+    "url": "",
+    "products": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      },
+      {
+        "name": "biscuits"
+      }
+    ]
+  },
+  {
+    "company": "Company 14",
+    "desc": "We produce software.",
+    "labels": "no additives; dessert",
+    "url": "http://company14.com",
+    "items": [
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      },
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Company 15",
+    "description": "We produce natural snacks.",
+    "keywords": "eco, corn-starch",
+    "site": "http://company15.net",
+    "items": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "cake"
+      },
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Company 16",
+    "desc": "We produce cosmetics.",
+    "labels": "eco; corn-starch",
+    "site": "http://company16.com",
+    "products": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      },
+      {
+        "name": "biscuits",
+        "ingredients": [
+          "flour",
+          "butter",
+          "sugar"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Company 17",
+    "description": "We produce bakery.",
+    "labels": "vegan; corn-starch",
+    "url": "http://company17.com",
+    "product_list": [
+      {
+        "name": "face powder",
+        "ingredients": [
+          "talc",
+          "mica",
+          "zinc oxide"
+        ]
+      },
+      {
+        "name": "pudding"
+      },
+      {
+        "name": "cake"
+      }
+    ]
+  },
+  {
+    "company_name": "Company 18",
+    "info": "We produce steel.",
+    "keywords": "eco; dessert",
+    "site": "http://company18.com",
+    "product_list": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "cream"
+      },
+      {
+        "name": "chips"
+      }
+    ]
+  },
+  {
+    "company": "Company 19",
+    "desc": "We produce sauces. Our products use binder. Our products use starch.",
+    "tags": "dessert; vegan",
+    "site": "http://company19.com",
+    "product_list": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "chips"
+      },
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Company 20",
+    "info": "We produce bakery. Our products use binder. Our products use starch.",
+    "keywords": "dessert; eco",
+    "website": "",
+    "products": [
+      {
+        "name": "biscuits"
+      },
+      {
+        "name": "cake"
+      },
+      {
+        "name": "cream"
+      }
+    ]
+  },
+  {
+    "company_name": "Company 21",
+    "desc": "We produce dairy.",
+    "tags": "no additives; vegan",
+    "website": "https://company21.com",
+    "products": [
+      {
+        "name": "chips"
+      },
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      },
+      {
+        "name": "face powder",
+        "ingredients": [
+          "talc",
+          "mica",
+          "zinc oxide"
+        ]
+      }
+    ]
+  },
+  {
+    "company_name": "Company 22",
+    "info": "We produce bakery. Our products use thickener. Our products use binder.",
+    "keywords": "corn-starch; dessert",
+    "site": "http://company22.com",
+    "items": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "biscuits",
+        "ingredients": [
+          "flour",
+          "butter",
+          "sugar"
+        ]
+      },
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Company 23",
+    "description": "We produce bakery.",
+    "keywords": "corn-starch; eco",
+    "website": "http://company23.com",
+    "items": [
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      },
+      {
+        "name": "chips"
+      },
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Company 24",
+    "description": "We produce sauces.",
+    "keywords": "eco; no additives",
+    "site": "http://company24.com",
+    "product_list": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "cake"
+      },
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Company 25",
+    "info": "We produce cosmetics.",
+    "tags": "no additives; eco",
+    "website": "",
+    "product_list": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      },
+      {
+        "name": "cake"
+      }
+    ]
+  },
+  {
+    "name": "Company 26",
+    "desc": "We produce steel.",
+    "tags": "corn-starch; dessert",
+    "website": "http://company26.com",
+    "items": [
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      },
+      {
+        "name": "face powder",
+        "ingredients": [
+          "talc",
+          "mica",
+          "zinc oxide"
+        ]
+      },
+      {
+        "name": "cake"
+      }
+    ]
+  },
+  {
+    "name": "Company 27",
+    "desc": "We produce cosmetics.",
+    "keywords": "eco; no additives",
+    "site": "",
+    "products": [
+      {
+        "name": "chips",
+        "ingredients": [
+          "potatoes",
+          "oil",
+          "salt"
+        ]
+      },
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      },
+      {
+        "name": "cake",
+        "ingredients": [
+          "flour",
+          "sugar",
+          "eggs"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Company 28",
+    "description": "We produce pet food.",
+    "keywords": "eco; corn-starch",
+    "site": "http://company28.com",
+    "products": [
+      {
+        "name": "chips"
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      },
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Company 29",
+    "info": "We produce everyday snacks.",
+    "site": "",
+    "items": [
+      {
+        "name": "pudding"
+      },
+      {
+        "name": "cake",
+        "ingredients": [
+          "corn starch"
+        ]
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      }
+    ]
+  },
+  {
+    "company_name": "Company 30",
+    "description": "We produce cosmetics. Our products use thickener. Our products use maize powder.",
+    "labels": "corn-starch; vegan",
+    "website": "http://company30.com",
+    "items": [
+      {
+        "name": "cake",
+        "ingredients": [
+          "flour",
+          "sugar",
+          "eggs"
+        ]
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      },
+      {
+        "name": "cream"
+      }
+    ]
+  },
+  {
+    "company_name": "Company 10",
+    "description": "We produce dairy prodcucts.",
+    "keywords": "eco; vegan",
+    "site": "https://company10.com",
+    "items": [
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      },
+      {
+        "name": "chips"
+      }
+    ]
+  },
+  {
+    "name": "Company 29",
+    "info": "We produce snacks.",
+    "keywords": "eco; corn-starch",
+    "site": "",
+    "items": [
+      {
+        "name": "pudding"
+      },
+      {
+        "name": "cake"
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      }
+    ]
+  },
+  {
+    "company_name": "Company 10",
+    "description": "Our diary products",
+    "keywords": "eco; vegan",
+    "site": "https://company10.com",
+    "items": [
+      {
+        "name": "cream",
+        "ingredients": [
+          "milk",
+          "fat",
+          "emulsifier"
+        ]
+      },
+      {
+        "name": "cheese",
+        "ingredients": [
+          "milk",
+          "rennet",
+          "salt"
+        ]
+      },
+      {
+        "name": "chips"
+      }
+    ]
+  },
+  {
+    "company_name": "Company 50",
+    "desc": "We produce dairy.",
+    "tags": "no additives; vegan",
+    "website": "https://company21.com",
+    "products": [
+      {
+        "name": "chips"
+      },
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      },
+      {
+        "name": "face powder",
+        "ingredients": [
+          "talc",
+          "mica",
+          "zinc oxide"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Company 15",
+    "description": "We produce snacks.",
+    "keywords": "eco; corn-starch",
+    "site": "https://company15.com",
+    "items": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "cake"
+      },
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      }
+    ]
+  },
+  {
+    "company_name": "Company 52",
+    "info": "We produce bakery. Our products use thickener.",
+    "keywords": "corn-starch; dessert",
+    "site": "http://company22.com",
+    "items": [
+      {
+        "name": "face powder"
+      },
+      {
+        "name": "biscuits",
+        "ingredients": [
+          "flour",
+          "butter",
+          "sugar"
+        ]
+      },
+      {
+        "name": "pudding",
+        "ingredients": [
+          "milk",
+          "sugar",
+          "gelatin"
+        ]
+      }
+    ]
+  }
+]
