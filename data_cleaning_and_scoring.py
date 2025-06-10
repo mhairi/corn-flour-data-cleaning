@@ -1,7 +1,13 @@
 import pandas as pd
 import re
+import logging
 from typing import Any
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------- #
 #                                 Data Cleaning                                #
@@ -125,6 +131,9 @@ if __name__ == "__main__":
     # Manually edited JSON file to fix incorrect JSON structure
 
     df = load_json("data/processed_buyer_leads.json")
+
+    logger.info("Input data loaded.")
+
     df = coalesce_columns(
         df,
         [
@@ -139,6 +148,8 @@ if __name__ == "__main__":
         ],
     )
     df = remove_duplicates(df)
+
+    logger.info("Data cleaning finished.")
 
     df["has_corn_starch_label"] = df["labels"].apply(
         check_for_label, args=("corn-starch",)
@@ -195,6 +206,10 @@ if __name__ == "__main__":
         axis=1,
     )
 
+    logger.info("Scoring calculated.")
+
     df.sort_values(["score"], ascending=False).to_csv(
         "data/cleaned_and_scored_buyer_leads.csv", index=False
     )
+
+    logger.info("Data written to CSV.")
